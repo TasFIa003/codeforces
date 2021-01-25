@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n,m;
+    cin>>n>>m;
+    cout<<min((m+n)/3,min(m,n))<<endl;
+}
